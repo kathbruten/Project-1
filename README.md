@@ -17,5 +17,8 @@ The customer base that I will aim to attract with to this website are:
 
 ## Design Choices
 
-## Credits 
+## Credits
+
+## Challenges
+Making images a nice size - all images are really big 
 

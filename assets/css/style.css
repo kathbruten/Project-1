@@ -3,7 +3,38 @@
 /*--------------------------------------------Colors*/
 
 /*--------------------------------------------Special margins/paddings/text*/
+.uppercase {
+    text-transform: uppercase;
+}
 
 /*--------------------------------------------Header*/
 
 /*--------------------------------------------Navigation Bar*/
+.navbar-nav {
+    float: right;
+
+}
+
+/*--------------------------------------------Images*/
+.hero-image {
+    background: no-repeat center center;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-outer {
+    height: 200px;
+    max-width:60%;
+    overflow:hidden;
+}
+
+
+/*--------------------------------------------Footer*/
+.social-links {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+
+/*--------------------------------------------Carosel*/
+@prefers-reduced-motion: no-preference
