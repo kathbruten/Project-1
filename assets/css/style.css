@@ -36,5 +36,17 @@
 }
 
 
-/*--------------------------------------------Carosel*/
-@prefers-reduced-motion: no-preference
+/*--------------------------------------------Carosel
+prefers-reduced-motion {no-preference;}*/
+
+
+
+/*--------------------------------------------home page*/
+.product-summary-para {
+text-align: center;
+}
+
+.section-heading {
+    background-color:rgb(139, 86, 5);
+    color: gray;
+}
