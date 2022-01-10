@@ -1,52 +1,121 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:100,200,300,400,500,600,700 wght@300&family=Roboto&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&family=Roboto&display=swap');
+
+.text-dark {
+  color: #343a40!important;
+  font-size: 2rem;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+  padding: 0.8rem;
+}
 /*--------------------------------------------Colors*/
+body {
+    background-color:#D3ccc5;
+}
+
+.brand-logo {
+    color:#5b0f0b;
+    font-family: 'Merriweather', sans-serif;
+}
+.navbar {
+    font-family: 'Merriweather', sans-serif;
+}
+
+h2 {
+    font-family: 'Merriweather', sans-serif;
+    color:#605f43;
+
+}
+
+.product-summary-para {
+    font-family: 'Playfair Display', sans-serif;
+}
+.nav-link {
+    color:#b1a881;
+}
+
+.nav-link:hover {
+    color:#5b0f0b;
+
+}
 
 /*--------------------------------------------Special margins/paddings/text*/
 .uppercase {
     text-transform: uppercase;
 }
-
 /*--------------------------------------------Header*/
+
+.reasons-to-love-snug{
+    margin-bottom:15px;
+}
+
+.reasons-to-love-icon {
+    font-size: 1.6rem;
+    color:#605f43;
+}
+
 
 /*--------------------------------------------Navigation Bar*/
 .navbar-nav {
     float: right;
-
 }
-
 /*--------------------------------------------Images*/
 .hero-image {
     background: no-repeat center center;
     overflow: hidden;
     position: relative;
 }
-
 .hero-outer {
     height: 200px;
     max-width:60%;
     overflow:hidden;
 }
-
-
 /*--------------------------------------------Footer*/
 .social-links {
-    padding-top: 20px;
-    margin-right: 20px;
+    padding-top: 1.3rem;
+    margin-right: 1.3rem;
 }
-
-
 /*--------------------------------------------Carosel
 prefers-reduced-motion {no-preference;}*/
-
-
-
 /*--------------------------------------------home page*/
-.product-summary-para {
-text-align: center;
+
+@media screen and (min-width: 768px) {
+  .text-dark {
+    color: #343a40!important;
+    font-size: 3rem;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  #last-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+} 
+@media screen and (min-width: 1024px) {
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+    padding: 4rem;
+    font-size: 2rem;
+  }
+  #last-icon {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+  }
 }
 
-.section-heading {
-    background-color:rgb(139, 86, 5);
-    color: gray;
+.section-heading-reasons {
+    background-color:#cd7a7a;
+    color:#D3ccc5;
+}
+
+.section-heading-brand {
+    background-color: #7e764e;
 }

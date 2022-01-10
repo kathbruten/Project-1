@@ -5,68 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css" integrity="sha512-CB+XYxRC7cXZqO/8cP3V+ve2+6g6ynOnvJD6p4E4y3+wwkScH9qEOla+BTHzcwB4xKgvWn816Iv0io5l3rAOBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:100,200,300,400,500,600,700 wght@300&family=Roboto&display=swap');
+      </style>
+      
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&family=Roboto&display=swap');
+      </style>
     <title>SnuggleZone</title>
 </head>
  
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <h1 class="brand-logo">SnuggleZone</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">SnuggleZone</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
+    <section>
+        <div class="hero-image">
+        <img src="assets/images/Family sofa shot.jpg" class="img-fluid" alt="Family enjoying life on their beautiful sofa">
+      </div>
+    </section>
+  </div>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 section-heading-reasons">
+            <div class="row">  
+              <div class="col">
+                <div class="section-heading"><h3>More than just a Sofa</h3></div>
               </div>
             </div>
-          </nav>
-    </header>
-    <section>
-      <div class="d-block no-repeat max-width:60% height:200px overflow-hidden border border-primary hero-outer">
-        <div class="hero-image">
-        <img src="../assets/images/Family sofa shot.jpg" class="img-fluid" alt="Family enjoying life on their beautiful sofa">
-      </div>
-      </div>
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="section-heading uppercase">Reasons to Love Us
-
+            <div class="row">
+              <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                <div class="row">
+                  <div class="col-2 reasons-to-love-icon">
+                    *
+                  </div>
+                  <div class="col-10">
+                    <p class="reasons-to-love-snug">Quality</p>
+                  </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                  <div class="row">
+                    <div class="col-2 reasons-to-love-icon">
+                      *
+                    </div>
+                    <div class="col-10">
+                      <p class="reasons-to-love-snug">Comfort</p>
+                    </div>
+                  </div>
+                  <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                      <div class="col-2 reasons-to-love-icon">
+                        *
+                      </div>
+                      <div class="col-10">
+                        <p class="reasons-to-love-snug">Sustainability</p>
+                      </div>
+                    </div>
+              </div>
+            </div>
           </div>
+        </div>
         </div>
         <div class="col-md-8">
-          <div class="section-heading uppercase"> SnuggleZone - Britain's Best Sofa
-          </div>
-          <p class="product-summary-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum.</p>
+          <div class="row">
+            <div class="col-12">
+              <div class="section-heading-brand">
+                <h3>SnuggleZone - Your next Best Sofa</h3>
+                <p>text text text text text text text text text text text text text</p> 
+              </div>
+            </div>
         </div>
       </div>
     </section>
+  </div>
+    <hr />
+  </div>
     <footer>
       <div class="row align-items-end">
         <div class="col footer d-block float-right">
@@ -101,7 +141,7 @@
                     <span class="sr-only">Instagram</span>
                 </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" id="last-icon">
                 <a target="_blank" href="#">
                     <i class="fa fa-youtube" aria-hidden="true"></i>
                     <span class="sr-only">YouTube</span>
@@ -109,8 +149,12 @@
             </li>
         </ul>
         </div>
-      </div>
     </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
  
 </html>
