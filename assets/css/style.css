@@ -84,6 +84,17 @@ h2 {
 prefers-reduced-motion {no-preference;}*/
 /*--------------------------------------------home page*/
 
+
+/*--------------------------------------------About Page*/
+.founders-photo {
+  height: 12rem;
+  max-width:100%;
+  overflow:hidden;
+  background: no-repeat center center;
+}
+
+
+/*--------------------------------------------Media Queries*/
 @media screen and (min-width: 768px) {
   .text-dark {
     color: #343a40!important;
