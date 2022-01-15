@@ -92,8 +92,14 @@ prefers-reduced-motion {no-preference;}*/
   overflow:hidden;
   background: no-repeat center center;
 }
+.sustainability-heading, .design-heading, .founders-heading {
+  font-family: 'Merriweather', sans-serif;
+}
 
-.about-sustainability-col{
+.founders-info, .design-info, .sustainability-info {
+  font-family: 'Playfair Display', sans-serif;
+}
+
 /*---------------------------float right*/ 
 
 
@@ -126,10 +132,11 @@ prefers-reduced-motion {no-preference;}*/
 }
 
 .section-heading-reasons {
-    background-color:#cd7a7a;
-    color:#D3ccc5;
+    background-color:#cd7a7a8f;
+    color: #d3ccc5;
 }
 
 .section-heading-brand {
-    background-color: #7e764e;
+    background-color: #cd7a7a8f;
+    color: #d3ccc5;
 }
