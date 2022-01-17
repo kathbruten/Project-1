@@ -80,8 +80,11 @@ h2 {
     padding-top: 1.3rem;
     margin-right: 1.3rem;
 }
-/*--------------------------------------------Carosel
-prefers-reduced-motion {no-preference;}*/
+/*--------------------------------------------Cards*/
+.chair-sized-blocks {
+  display:inline-block!important;
+}
+
 /*--------------------------------------------home page*/
 
 
