@@ -151,6 +151,10 @@ background-color:#fafafa;
   background: no-repeat center center;
 }
 
+.sustainability-row {
+  margin-left:0rem;
+  background-color:#cd7a7a33;
+}
 
 /*---------------------------Contact Page*/ 
 .contact-heading {
@@ -159,6 +163,9 @@ background-color:#fafafa;
 }
 form {
   font-family: 'Playfair Display', sans-serif;
+  margin:0 auto;
+  max-width:70%;
+
 }
 
 .submit-button {
