@@ -24,6 +24,7 @@ body {
 }
 .navbar {
     font-family: 'Merriweather', sans-serif;
+    background-color:#fafafa;
 }
 
 h2 {
@@ -79,12 +80,45 @@ h2 {
 .social-links {
     padding-top: 1.3rem;
     margin-right: 1.3rem;
+    color:#5b0f0b;
 }
 /*--------------------------------------------Cards*/
+
 .chair-sized-blocks {
-  display:inline-block!important;
+  text-align: center;
 }
 
+.card-img-top {
+  height:15rem;
+  width:100%;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+  position:center;
+}
+
+.card .d-inline-block {
+width:30%;
+display:inline-block;
+background-color:#fafafa;
+}
+
+.card-title {
+  font-family: 'Merriweather', sans-serif;
+  color: #5b0f0b;
+}
+
+.card-link {
+  font-family: 'Merriweather', sans-serif;
+  color:#b1a881;
+}
+.card-text {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.card-link:hover {
+  color:#5b0f0b;
+}
 /*--------------------------------------------home page*/
 
 
@@ -95,16 +129,45 @@ h2 {
   overflow:hidden;
   background: no-repeat center center;
 }
+
+.founders-col{
+  background-color: #cd7a7a33;
+}
+
 .sustainability-heading, .design-heading, .founders-heading {
   font-family: 'Merriweather', sans-serif;
+  color:#5b0f0b;
 }
 
 .founders-info, .design-info, .sustainability-info {
   font-family: 'Playfair Display', sans-serif;
 }
 
-/*---------------------------float right*/ 
+.design-image, .design-image-outer {
+  height: 12rem;
+  max-width:60%;
+  float: right;
+  overflow:hidden;
+  background: no-repeat center center;
+}
 
+
+/*---------------------------Contact Page*/ 
+.contact-heading {
+  font-family: 'Merriweather', sans-serif;
+  color:#5b0f0b;
+}
+form {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.submit-button {
+  background-color: #cd7a7a33;
+}
+.submit-button:hover {
+  background-color: #5b0f0b;
+  color:#b1a881;
+}
 
 /*--------------------------------------------Media Queries*/
 @media screen and (min-width: 768px) {
@@ -121,6 +184,11 @@ h2 {
     margin-right: 0.5rem;
     font-size: 1.5rem;
   }
+  .card {
+    width:80%;
+    margin:0 auto;
+    position:static-flow!important;
+    }
 } 
 @media screen and (min-width: 1024px) {
   .list-inline-item:not(:last-child) {
@@ -134,14 +202,14 @@ h2 {
   }
 }
 
+
 .section-heading-reasons {
-    background-color:#cd7a7a33;
-    color:#5b0f0b;
+  color: #5b0f0b;
+  background-color:#cd7a7a33;
     font-family: 'Merriweather', sans-serif;
 }
 
 .three-reasons-list {
-  color: #5b0f0b;
   font-family: 'Playfair Display', sans-serif;
 }
 
@@ -156,10 +224,10 @@ h2 {
 }
 
 .brand-text {
-  color: #5b0f0b;
   font-family: 'Playfair Display', sans-serif;
 }
 
 .d-inline-block {
   display: inline-block;
 }
+
