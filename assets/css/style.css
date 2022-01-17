@@ -135,11 +135,31 @@ h2 {
 }
 
 .section-heading-reasons {
-    background-color:#cd7a7a8f;
-    color: #d3ccc5;
+    background-color:#cd7a7a33;
+    color:#5b0f0b;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.three-reasons-list {
+  color: #5b0f0b;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .section-heading-brand {
-    background-color: #cd7a7a8f;
-    color: #d3ccc5;
+
+    color: #5b0f0b;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.div-brand {
+  background-color: #cd7a7a33;
+}
+
+.brand-text {
+  color: #5b0f0b;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.d-inline-block {
+  display: inline-block;
 }
