@@ -128,32 +128,60 @@ background-color:#fafafa;
   max-width:100%;
   overflow:hidden;
   background: no-repeat center center;
+  text-align:center;
+  margin-left:2rem;
 }
 
-.founders-col{
+.about-page-ext-design{
   background-color: #cd7a7a33;
+}
+
+.design-col {
+  background-color: #D3ccc5;
 }
 
 .sustainability-heading, .design-heading, .founders-heading {
   font-family: 'Merriweather', sans-serif;
   color:#5b0f0b;
+  text-align:center;
 }
 
 .founders-info, .design-info, .sustainability-info {
   font-family: 'Playfair Display', sans-serif;
+  text-align:center;
 }
 
 .design-image, .design-image-outer {
-  height: 12rem;
-  max-width:60%;
-  float: right;
+  height: 20rem;
+  max-width:100%;
   overflow:hidden;
   background: no-repeat center center;
+  padding:0.3rem;
+  margin-bottom:1rem;
+  text-align:center;
 }
 
-.sustainability-row {
+/*.sustainability-row {
   margin-left:0rem;
   background-color:#cd7a7a33;
+}*/
+
+.sustainability-image {
+  display:inline-block;
+  height:10rem;
+  width:10rem;
+  border-radius:50%;
+  background: no-repeat center center;
+  margin-left:3.7rem;
+}
+
+.sustainability-tag {
+  display:inline-block;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1rem;
+  text-align:center;
+  margin-left:4.7rem;
+  margin-top:0.5rem;
 }
 
 /*---------------------------Contact Page*/ 
