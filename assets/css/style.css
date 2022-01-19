@@ -1,10 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:100,200,300,400,500,600,700 wght@300&family=Roboto&display=swap');
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&family=Roboto&display=swap');
-
 .text-dark {
   color: #343a40!important;
   font-size: 2rem;
@@ -14,11 +9,12 @@
   padding: 0.8rem;
 }
 /*--------------------------------------------Colors*/
+.container {
+  background-color: white;
+}
 body {
     background-color:#D3ccc5;
 }
-
-
 .brand-logo {
     color:#5b0f0b;
     font-family: 'Merriweather', sans-serif;
@@ -27,41 +23,34 @@ body {
     font-family: 'Merriweather', sans-serif;
     background-color:#fafafa;
 }
-
 h2 {
     font-family: 'Merriweather', sans-serif;
     color:#605f43;
-
 }
-
 .product-summary-para {
     font-family: 'Playfair Display', sans-serif;
 }
 .nav-link {
     color:#b1a881;
 }
-
 .nav-link:hover {
     color:#5b0f0b;
-
 }
-
 /*--------------------------------------------Special margins/paddings/text*/
 .uppercase {
     text-transform: uppercase;
 }
 /*--------------------------------------------Header*/
-
 .reasons-to-love-snug{
     margin-bottom:15px;
 }
-
 .reasons-to-love-icon {
     font-size: 1.6rem;
     color:#605f43;
 }
-
-
+.active {
+  text-decoration: underline;
+}
 /*--------------------------------------------Navigation Bar*/
 .navbar-nav {
     float: right;
@@ -84,12 +73,10 @@ h2 {
     color:#5b0f0b;
 }
 /*--------------------------------------------Cards*/
-
 .chair-sized-blocks {
   text-align: center;
   position:center;
 }
-
 .card-img-top {
   height:15rem;
   width:100%;
@@ -98,18 +85,15 @@ h2 {
   margin:0;
   position:center;
 }
-
 .card .d-inline-block {
 width:30%;
 display:inline-block;
 background-color:#fafafa;
 }
-
 .card-title {
   font-family: 'Merriweather', sans-serif;
   color: #5b0f0b;
 }
-
 .card-link {
   font-family: 'Merriweather', sans-serif;
   color:#b1a881;
@@ -117,13 +101,10 @@ background-color:#fafafa;
 .card-text {
   font-family: 'Playfair Display', sans-serif;
 }
-
 .card-link:hover {
   color:#5b0f0b;
 }
 /*--------------------------------------------home page*/
-
-
 /*--------------------------------------------About Page*/
 .founders-photo {
   height: 12rem;
@@ -133,26 +114,21 @@ background-color:#fafafa;
   text-align: center;
   vertical-align: middle;
 }
-
 .about-page-ext-design {
   background-color: #cd7a7a33;
 }
-
 .design-col {
   background-color: #D3ccc5;
 }
-
 .sustainability-heading, .design-heading, .founders-heading {
   font-family: 'Merriweather', sans-serif;
   color:#5b0f0b;
   text-align:center;
 }
-
 .founders-info, .design-info, .sustainability-info {
   font-family: 'Playfair Display', sans-serif;
   text-align:center;
 }
-
 .design-image, .design-image-outer {
   height: 20rem;
   max-width:100%;
@@ -162,28 +138,22 @@ background-color:#fafafa;
   margin-bottom:1rem;
   text-align:center;
 }
-
 .sustainability-image {
   height:10rem;
   width:10rem;
   border-radius:50%;
   background: no-repeat center center;
-  margin-left:3.7rem;
 }
-
 .three-images-section {
   display:inline-block;
 }
-
 .sustainability-tag {
   display:inline-block;
   font-family: 'Playfair Display', sans-serif;
   font-size: 1rem;
-  text-align:center;
-  margin-left:5rem;
+  text-align: center;
   margin-top:0.5rem;
 }
-
 /*---------------------------Contact Page*/ 
 .contact-heading {
   font-family: 'Merriweather', sans-serif;
@@ -193,9 +163,7 @@ form {
   font-family: 'Playfair Display', sans-serif;
   margin:0 auto;
   max-width:70%;
-
 }
-
 .submit-button {
   background-color: #cd7a7a33;
 }
@@ -203,14 +171,12 @@ form {
   background-color: #5b0f0b;
   color:#b1a881;
 }
-
 /*--------------------------------------------Media Queries*/
 @media screen and (min-width: 768px) {
   .text-dark {
     color: #343a40!important;
     font-size: 3rem;
   }
-
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
     padding: 3rem;
@@ -225,24 +191,21 @@ form {
     margin:0 auto;
     position:static-flow!important;
     }
-
     .chair-sized-blocks {
       vertical-align: middle;
     }
-
     .sustainability-image {
       vertical-align: middle;
       height:10rem;
       width:10rem;
       border-radius:50%;
       background: no-repeat center center;
-      margin-left:3.7rem;
     }
     .sustainability-tag {
-      vertical-align: middle!important;
+      vertical-align: middle !important;
+      text-align: center;
     }
 } 
-
 @media screen and (min-width: 1024px) {
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
@@ -253,7 +216,6 @@ form {
     margin-right: 0.5rem;
     font-size: 2rem;
   }
-
   .chair-sized-blocks {
     text-align: center;
     display: inline-block!important;
@@ -264,45 +226,40 @@ form {
     width:10rem;
     border-radius:50%;
     background: no-repeat center center;
-    margin-left:3.7rem;
   }
   .sustainability-tag {
     display: inline-block;
     font-family: 'Playfair Display', sans-serif;
     font-size: 1rem;
-    text-align:center;
-    margin-left:5rem;
-    margin-top:0.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
   }
-
 }
-
-
 .section-heading-reasons {
   color: #5b0f0b;
   background-color:#cd7a7a33;
     font-family: 'Merriweather', sans-serif;
 }
-
 .three-reasons-list {
   font-family: 'Playfair Display', sans-serif;
 }
-
 .section-heading-brand {
-
     color: #5b0f0b;
     font-family: 'Merriweather', sans-serif;
 }
-
 .div-brand {
   background-color: #cd7a7a33;
 }
-
 .brand-text {
   font-family: 'Playfair Display', sans-serif;
 }
-
 .d-inline-block {
   display: inline-block;
 }
-
+.rounded-corners {
+  border-radius: 50%;
+}
+.trans-back {
+  background-color: transparent;
+  border: none !important;
+}
