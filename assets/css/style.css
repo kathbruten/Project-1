@@ -18,6 +18,7 @@ body {
     background-color:#D3ccc5;
 }
 
+
 .brand-logo {
     color:#5b0f0b;
     font-family: 'Merriweather', sans-serif;
@@ -86,6 +87,7 @@ h2 {
 
 .chair-sized-blocks {
   text-align: center;
+  position:center;
 }
 
 .card-img-top {
@@ -128,11 +130,11 @@ background-color:#fafafa;
   max-width:100%;
   overflow:hidden;
   background: no-repeat center center;
-  text-align:center;
-  margin-left:2rem;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.about-page-ext-design{
+.about-page-ext-design {
   background-color: #cd7a7a33;
 }
 
@@ -162,12 +164,15 @@ background-color:#fafafa;
 }
 
 .sustainability-image {
-  display:inline-block;
   height:10rem;
   width:10rem;
   border-radius:50%;
   background: no-repeat center center;
   margin-left:3.7rem;
+}
+
+.three-images-section {
+  display:inline-block;
 }
 
 .sustainability-tag {
@@ -205,6 +210,7 @@ form {
     color: #343a40!important;
     font-size: 3rem;
   }
+
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
     padding: 3rem;
@@ -219,8 +225,13 @@ form {
     margin:0 auto;
     position:static-flow!important;
     }
+
+    .chair-sized-blocks {
+      vertical-align: middle;
+    }
+
     .sustainability-image {
-      display:inline-block;
+      vertical-align: middle;
       height:10rem;
       width:10rem;
       border-radius:50%;
@@ -228,9 +239,10 @@ form {
       margin-left:3.7rem;
     }
     .sustainability-tag {
-      display:none;
+      vertical-align: middle!important;
     }
 } 
+
 @media screen and (min-width: 1024px) {
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
@@ -241,6 +253,11 @@ form {
     margin-right: 0.5rem;
     font-size: 2rem;
   }
+
+  .chair-sized-blocks {
+    text-align: center;
+    display: inline-block!important;
+  }
   .sustainability-image {
     display:inline-block;
     height:10rem;
@@ -250,13 +267,14 @@ form {
     margin-left:3.7rem;
   }
   .sustainability-tag {
-    display:inline-block;
+    display: inline-block;
     font-family: 'Playfair Display', sans-serif;
     font-size: 1rem;
     text-align:center;
     margin-left:5rem;
     margin-top:0.5rem;
   }
+
 }
 
 
