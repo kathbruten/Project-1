@@ -147,6 +147,12 @@ background-color:#fafafa;
 .three-images-section {
   display:inline-block;
 }
+
+.card-body {
+  text-align: center;
+  position:center;
+}
+
 .sustainability-tag {
   display:inline-block;
   font-family: 'Playfair Display', sans-serif;
@@ -171,6 +177,11 @@ form {
   background-color: #5b0f0b;
   color:#b1a881;
 }
+
+.container-contact {
+  background-color: #D3ccc5;
+}
+
 /*--------------------------------------------Media Queries*/
 @media screen and (min-width: 768px) {
   .text-dark {
@@ -258,8 +269,8 @@ form {
 }
 .rounded-corners {
   border-radius: 50%;
-  height: 6rem;
-  width: 6rem;
+  padding:2rem;
+  text-align: center;
 }
 .trans-back {
   background-color: transparent;
