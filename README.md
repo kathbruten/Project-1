@@ -23,3 +23,11 @@ The customer base that I will aim to attract with to this website are:
 ## Challenges
 Making images a nice size - all images are really big 
 
+## Technologies used
+HTML5 for markup
+CSS3 for style
+Google Fonts for fonts
+Bootstrap for main frame of the website
+Font Awesome for icons
+Git for version control
+GitHub for keeping the files, documents and deployment of the website
