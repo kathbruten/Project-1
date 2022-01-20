@@ -258,6 +258,8 @@ form {
 }
 .rounded-corners {
   border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
 }
 .trans-back {
   background-color: transparent;
