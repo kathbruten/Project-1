@@ -50,10 +50,19 @@ h2 {
 .active {
   text-decoration: underline;
 }
+
+.navbar-toggler {
+  color:#5b0f0b;
+}
 /*--------------------------------------------Navigation Bar*/
 .navbar-nav {
     float: right;
 }
+
+.navbar-toggler-icon {
+  color:#b1a881;
+}
+
 /*--------------------------------------------Images*/
 .hero-image {
     background: no-repeat center center;
