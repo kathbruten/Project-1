@@ -1,20 +1,27 @@
 python3 -m http.server
 # Welcome to my first User Centric Frontend Development Project
 
+For my Milestone Project 1 on Code Institute's Diploma in Software Developement course I have created a website for a sofa company. SnuggleZone is a company which specialises in making chic and comfortable sofas.
 
-## Project goals
-In making this project, my goal was to create a website for a bespoke table company which would offer a logical and enjoyable user experience, and create the base for a successful business website.
+(insert markups of website)
+
+## Project Goals
+
+### Who is this website for?
+SnuggleZone aims to target individuals who are ready to invest in their home with a chic, elegant but simple sofa. I have therefore aimed to create a website which runs smoothly and is visually appealing but simple. 
+
+### What does this website do?
+This website will advertise sofa products and enable customers to get in touch and request a fitting, after which they will be able to purchase a product.
+
+### User Stories
+The customer base that I will aim to attract with to this website are:
+* UK based, as this is the first website for a small company.
+* Family 
+* 
 
 ## Developer and business goals
 Designer goals are to create a website which runs smoothly, is efficient, visually appealling and helpful
 Business goals are to create a user experience which will deliver the company's brand of luxurious and beautiful bespoke tables that are enjoyable, durable, practical and beautiful.
-
-## User stories (customer goals)
-The customer base that I will aim to attract with to this website are:
-* UK based, as this is the first website for a small company.
-* Family orientated people who have spent more time at home throughout the past few years and are ready to invest in a beautiful table which will help them enjoy being at home, and also encourage them to make use of their gardens and get outside.
-* Invidivuals who enjoy being outside, specifically eating outside, and want to make the most of their gardens - offering that element of escapism in the Summer with the Meditaranian design, while also being durable enough to last many British winters without need for concern.
-* 30s - 60s in age
 
 ## Design Choices
 
