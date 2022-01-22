@@ -26,6 +26,18 @@ h2 {
     font-family: 'Merriweather', sans-serif;
     color:#605f43;
 }
+
+.navbar-toggler-icon{
+ font:0.5rem;
+ color:#b1a881;
+}
+
+.navbar-toggler-icon:hover {
+  color:#5b0f0b;
+  text-decoration: underline;
+}
+
+
 .product-summary-para {
     font-family: 'Playfair Display', sans-serif;
 }
@@ -51,17 +63,12 @@ h2 {
   text-decoration: underline;
 }
 
-.navbar-toggler {
-  color:#5b0f0b;
-}
 /*--------------------------------------------Navigation Bar*/
 .navbar-nav {
     float: right;
 }
 
-.navbar-toggler-icon {
-  color:#b1a881;
-}
+
 
 /*--------------------------------------------Images*/
 .hero-image {
