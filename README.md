@@ -109,6 +109,7 @@ Code Institute SlackCommunity
 My Code Institute mentor for guidance
 Bootstrap for Card features and NavBar basecode
 W3Schools for help when I was stuck with a problem 
+Sofology for dimensions
 
 Testing 
 Browser Testing 
