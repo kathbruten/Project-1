@@ -3,7 +3,8 @@ python3 -m http.server
 
 For my Milestone Project 1 on Code Institute's Diploma in Software Developement course I have created a website for a sofa company. SnuggleZone is a company which specialises in making chic and comfortable sofas.
 
-(insert markups of website)
+![Markup of my Website](assets/images/website-mockup-image.jpg)
+My website is effective and attractive on each device as my mockup images clearly display.
 
 ## Project Goals
 
