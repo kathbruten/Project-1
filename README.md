@@ -40,23 +40,23 @@ The website consists of 4 pages, which each have a specific purpose and flow tog
 ##### Navigation and Footer
 
 Throughout all of my pages, the navigation and footer are the same throughout the website, which provide a constant throughout the user’s experience, and which are essential to enable the user to navigate around the website. On larger screens, the navigation is formatted as a bar across the screen with each page clearly selected. On smaller screens, the navigation is formatted as a dropdown bar with a button to keep the screen neat and clear for users. On all sizes, the active page is underlined in order to clearly notify the user of where in the site they currently are. 
-T
-he footer is formatted to scale down relatively, and always remains on one row to neatly fit the bottom of the screen. 
+The footer is formatted to scale down relatively, and always remains on one row to neatly fit the bottom of the screen. 
 
-Home Page
- 
-Products Page
+##### Home Page
+ I wanted this page to be a simple insight into the company and an effective starting point for the 
+ navigating around the website and browsing products / the company's techniques and ethos. I deliberately included a large photo of a family on a large sofa at the top of the page, because I wanted to make the purpose of this website clear to users as soon as they enter the website.
 
+##### Products Page
+I used three cards on this page to clearly display the 3 products that SnuggleZone has to offer. They were structured with a large enticing photo at the top, followed by a title, some description, then the size and price of each item. 
 
-
-About Page
-
-
-
-Contact us / Request a fitting
+##### About Page
+This Page is the most personal of all my pages, as it provides a more intimate insight into the company. I have included a nice introduction to the founders in the top left corner, and a large sustainability section below with 3 cards displaying the company's commitments to sustainability within the company. The largest section of this page is the Design Choices, which offers some more information on the decisions that were made in the design of each product and also some further shipping information.
 
 
-Terms and conditions downloadable pdf? Separate contact page?
+##### Request a fitting
+For this page, I made sure it was fuss-free and efficient, as this is the page where the customer does the talking. I added required Name and Email fields and also a larget field where the customer is asked to describe the product that they would like fitted. 
+
+
 
 ### Skeleton Plane
 My website focused on a mobile first experience, but I ensured that my website would create a positive user experience on all devices.
