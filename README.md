@@ -25,8 +25,8 @@ The customer base that I will aim to attract with to this website are:
 * They want to buy a product from a company that is sustainable and cares about running an ethical business
 
 
-## Developer and business goals
-Designer goals are to create a website which runs smoothly, is efficient, visually appealling and helpful
+## Goals for Business and Developer
+Designer goals are to create a website which runs smoothly, is efficient, visually appealling and helpful.
 Business goals are to create a user experience which will deliver the company's brand of luxurious and beautiful bespoke tables that are enjoyable, durable, practical and beautiful.
 
 ## The Five Planes
@@ -89,16 +89,16 @@ For titles and bold text throughout my website, I used #5b0f0b. I also used this
 
 #### Typography
 Throughout the website, two fonts have been used
-Merriweather for Headings
-Playfair Display for paragraph text
+* Merriweather for Headings
+* Playfair Display for paragraph text
 These were chosen because they are both very clear and I hadn't seen them used in many well trafficked websites or on other forms of media, so I thought this would add the feeling of this fictional company being a real one, with a brand, logo and recognisable font.
 
 #### Features 
 Existing Features
-Created in HTML5, CSS3 and Bootstrap
-4 different pages and a downloadable PDF file
-Cards on products and about page
-Contact form to request fittings
+* Created in HTML5, CSS3 and Bootstrap
+* 4 different pages and a downloadable PDF file
+* Cards on products and about page
+* Contact form to request fittings
 
 ### Features for future implementation
 Purchasing and payment capabilities within website;
@@ -122,6 +122,7 @@ Cookie pop up banner
 * [Bootstrap](https://getbootstrap.com/) for Card features and NavBar basecode
 * [W3Schools](https://www.w3schools.com/) for help when I was stuck with a problem 
 * [Sofology](https://www.sofology.co.uk/) for foctional product dimensions
+* [https://github.com/Code-Institute-Submissions/Luka-pp-MS1] Reference for starting point on how  to structure README file
 
 ### Testing 
 Browser Testing 
@@ -151,7 +152,7 @@ git commit -m "Commit message" to commit the work on the stage
 git push to update work to GitHub
 
 ### Deployment
-To deploy the website, I followed the below steps on GitHub.
-Go to "Settings" on the repository
-On "Source" of "GitHub Pages", select "master for Branch and click save
-The website is now published on GitHub Pages and the link is provided on on the same section
+To deploy the website, I used GitHub Pages and followed the steps below:
+1. Go to "Settings" on my repository
+2. Go to "GitHub Pages" > "Source" and then select "master for Branch" > save
+3. After a few hours, the website was published on GitHub Pages and the link is provided on on the same section
