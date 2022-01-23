@@ -1,10 +1,11 @@
-python3 -m http.server
 # Welcome to my first User Centric Frontend Development Project
 
 For my Milestone Project 1 on Code Institute's Diploma in Software Developement course I have created a website for a sofa company. SnuggleZone is a company which specialises in making chic and comfortable sofas.
 
 ![Markup of my Website](assets/images/website-mockup-image.jpg)
 My website is effective and attractive on each device as my mockup images clearly display.
+
+My GitPages website address is [https://kathbruten.github.io/Project-1/](https://kathbruten.github.io/Project-1/)
 
 ## Project Goals
 
@@ -18,6 +19,11 @@ This website will advertise sofa products and enable customers to get in touch a
 The customer base that I will aim to attract with to this website are:
 * UK based, as this is the first website for a small company.
 * Families
+* First time Buyers
+* Individuals who are loooking to invest in their home 
+* They want to buy a product that is made well and will last 
+* They want to buy a product from a company that is sustainable and cares about running an ethical business
+
 
 ## Developer and business goals
 Designer goals are to create a website which runs smoothly, is efficient, visually appealling and helpful
@@ -37,10 +43,14 @@ Smooth and clear navigation
 
 The website consists of 4 pages, which each have a specific purpose and flow together to create a logical and user friendly experience on the website. 
 I created the following drafts for each page using Balsamiq Wireframes:
-[Homepage] (assets/images/index-wireframes.jpg)
-[Products] (assets/images/products-wireframes.jpg)
-[About] (assets/images/about-wireframes.jpg)
-[Contact] (assets/images/contact-wireframes.jpg)
+
+![Homepage](assets/images/index-wireframes.jpg) 
+
+![Products](assets/images/products-wireframes.jpg)
+
+![About](assets/images/about-wireframes.jpg)
+
+![Contact](assets/images/contact-wireframes.jpg)
 
 ##### Navigation and Footer
 
@@ -65,8 +75,8 @@ For this page, I made sure it was fuss-free and efficient, as this is the page w
 
 
 ### Skeleton Plane
-My website focused on a mobile first experience, but I ensured that my website would create a positive user experience on all devices.
-I created my wireframes via Balsamiq, and have included the wireframes (here) (insert hyperlink)
+My website focused on a mobile first experience, where I designed all of my elements to stack neatly on top of each other to maintain ease of viewing and also provide a satisfying scrolling experience for the customer. However, I ensured that my website would create a positive user experience on all devices.
+
 
 
 ### Surface Plane
@@ -81,7 +91,7 @@ For titles and bold text throughout my website, I used #5b0f0b. I also used this
 Throughout the website, two fonts have been used
 Merriweather for Headings
 Playfair Display for paragraph text
-
+These were chosen because they are both very clear and I hadn't seen them used in many well trafficked websites or on other forms of media, so I thought this would add the feeling of this fictional company being a real one, with a brand, logo and recognisable font.
 
 #### Features 
 Existing Features
@@ -96,25 +106,26 @@ Ensure forms are fully functioning, with ability to store and action upon inputt
 Cookie pop up banner
 
 ### Technologies Used
-HTML 5 for markup 
-CSS3 for style
-Google Fonts for fonts 
-Bootstrap for main frame of the website
-Font Awesome for icons
-Git for version control
-GitHub for keeping the files, documents and deployment of the website
+* [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+* [GoogleFonts](https://fonts.google.com/) for fonts
+* [Bootstrap](https://getbootstrap.com/) for main frame of the website
+* [FontAwesome](https://fontawesome.com/) for icons
+* [Git](https://git-scm.com/) for version control
+* [GitHub](https://github.com/) for keeping the files, documents and deployment of the website
 
 ### Resources
-Code Institute for course materials
-Code Institute SlackCommunity 
-My Code Institute mentor for guidance
-Bootstrap for Card features and NavBar basecode
-W3Schools for help when I was stuck with a problem 
-Sofology for dimensions
+* [pixbay](https://pixabay.com/) for royalty free images
+* [CodeInstitute](https://codeinstitute.net/) for course materials
+* [CodeInstitute](https://codeinstitute.net/) SlackCommunity 
+* My Code Institute mentor for guidance
+* [Bootstrap](https://getbootstrap.com/) for Card features and NavBar basecode
+* [W3Schools](https://www.w3schools.com/) for help when I was stuck with a problem 
+* [Sofology](https://www.sofology.co.uk/) for foctional product dimensions
 
 ### Testing 
 Browser Testing 
-I have tested this website on each 
+I have tested this website on Chrome, Microsoft Explorer, Safari and on Mobile and tablet devices. On each of these the website if effective and provides a pleasant user experience.
 
 ### Validators 
 The website has been tested on the W3C Jigsaw Validation, which shows that the website does not have any errors. 
@@ -130,11 +141,11 @@ One challenge that I faced in my coding was making the cards on my About Page re
 
 ### Git & GitHub
 I used GitPod as a local repository and IDE and GitHub as a remote repository. The process of version control was:
-First i created a new repository on GitHub
-I have then opened that repository on GitPod and started coding
-In GitPod i have created all the pages and and folders
-I was then saving my work and pushing it to GitHub repository to keep it safe
-Process for saving, commiting and pushing it to remote repository goes as follows (done in terminal)
+First i created a new repository on GitHub.
+I set up a GitHub for this repository.
+In GitPod i have created all of my ideas for this project and the pages.
+I was then saving my work and pushing it to GitHub repository to keep it safe.
+I have included my process for saving, commiting and pushing my work below. This process was completed throughout my execusion of the project and was done in the terminal:
 git add . for adding work to git
 git commit -m "Commit message" to commit the work on the stage
 git push to update work to GitHub
